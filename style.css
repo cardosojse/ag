@@ -26,6 +26,18 @@ header{
     display: flex;
 }
 
+.footer-logo,
+.btn-section,
+h1{
+    text-align: center;
+}
+
+form input{
+    padding: .75em;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+
 .login-footer{
     display: flex;
     justify-content: space-between;
@@ -35,6 +47,10 @@ header{
 .login-footer a{
     text-decoration: none;
     color: var(--clr-blue-secondary);
+}
+
+.btn-section{
+    flex-direction: column;
 }
 
 .btn{
@@ -53,17 +69,19 @@ header{
         padding: 1.5em;
     }
 
+    .header-logo{
+        text-align: center;
+    }
+
+    header h3{
+        display: none;
+    }
+
     main,
     .login-section{
         padding: 2em 0;
     }
 
-    .header-logo,
-    .footer-logo,
-    h1{
-        text-align: center;
-    }
-    
     .header-logo img,
     .footer-logo img{
         width: 20vw;
@@ -77,14 +95,7 @@ header{
         margin-bottom: .75em;
     }
 
-    form input{
-        padding: .75em;
-        border-radius: 16px;
-        border: 1px solid rgba(0, 0, 0, .5);
-    }
-
     .btn-section{
-        text-align: center;
         gap: .5em;
     }
 
@@ -97,5 +108,53 @@ header{
 
     hr{
         margin-bottom: 1em;
+    }
+}
+
+@media (min-width:768px) {
+    .wrapper{
+        min-height: 100dvh;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    header,
+    main{
+        padding: 2em;
+    }
+
+    .header-logo img{
+        width: 5vw;
+    }
+
+    header h3{
+        color: #fff;
+    }
+
+    .login-section{
+        border: 1px solid red;
+        padding: 3em 0;
+    }
+
+    .login-forms{
+        border: 1px solid blue;
+    }
+
+    .login-forms form{
+        flex-direction: column;
+    }
+
+    .btn-section{
+        border: 1px solid yellow;
+        gap: .5em;
+    }
+
+    footer{
+        display: none;
     }
 }
