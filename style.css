@@ -88,6 +88,11 @@ header{
         gap: .5em;
     }
 
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+
     hr{
         margin-bottom: 1em;
     }
