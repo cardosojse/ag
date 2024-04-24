@@ -88,4 +88,7 @@ header{
         gap: .5em;
     }
 
+    hr{
+        margin-bottom: 1em;
+    }
 }
