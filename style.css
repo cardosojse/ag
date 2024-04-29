@@ -63,9 +63,14 @@
     text-align: center;
 }
 
+.voltar{
+    background-color: #fff;
+    color: var(--clr-blue-primary);
+    border: 1px solid var(--clr-blue-primary);
+}
+
 .anchor{
     color: var(--clr-blue-primary);
-    text-decoration: none;
 }
 
 @media (max-width:576px) {
@@ -79,8 +84,6 @@
 
     h2,
     .section__head,
-    .section-btn div,
-    .section-footer p,
     .forms-main p{
         text-align: center;
     }
@@ -94,13 +97,19 @@
         width: 25%;
     }
 
+    .certificado{
+        justify-content: center;
+        gap: .25em;
+    }
+
     .section-footer p{
         position: fixed;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-
+        width: 100%;
         color: var(--clr-dark-gray);
-        font-size: .8rem;
+        text-align: center;
+        font-size: .9rem;
     }
 }
