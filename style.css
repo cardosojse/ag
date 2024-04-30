@@ -160,6 +160,9 @@
 }
 
 @media (min-width:1200px) {
+    *{
+        font-size: 1.25rem;
+    }
     .section__head{
         width: 65%;
     }
