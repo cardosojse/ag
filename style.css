@@ -142,8 +142,8 @@
     }
 
     .position{
+        padding: 0 2em;
         width: 100%;
-        padding: 2em;
 
         position: absolute;
         top: 50%;
