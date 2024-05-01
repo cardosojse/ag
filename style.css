@@ -99,10 +99,10 @@
         text-align: center;
     }
 
-    .section__head{
+    /* .section__head{
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-    }
+    } */
 
     .section__head img{width: 25%;}
 
