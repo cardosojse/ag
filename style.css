@@ -16,7 +16,7 @@
     --clr-dark-gray:#636363;
 }
 
-main,
+.section__main,
 footer{
     background-color: #fff;
 }
