@@ -16,12 +16,6 @@
     --clr-dark-gray:#636363;
 }
 
-.section__main,
-footer{
-    background-color: #fff;
-}
-
-.wrapper,
 .section__head{background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);}
 
 .row{display: flex;}
@@ -94,6 +88,7 @@ footer{
         font-size: 1.06066rem;
     }
 
+    
     .container{
         padding: 2em 1em;
     }
